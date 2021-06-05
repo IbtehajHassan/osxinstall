@@ -16,6 +16,7 @@ brew install --cask pingid
 brew install --cask beyond-compare
 brew install --cask fork
 brew install --cask duet
+brew install gradle
 
 # excellent code editors
 brew install --cask visual-studio-code
