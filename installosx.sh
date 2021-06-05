@@ -5,15 +5,21 @@
 
 # Essentials
 brew install --cask iterm2
-#brew install --cask google-chrome firefox
 brew install --cask docker
-
-# Dont need Some extra cloud services
-#brew install --cask google-drive 
-#brew install --cask dropbox
+brew install --cask robo-3t
+brew install --cask dbeaver-community
+brew install --cask postman
+brew install --cask virtualbox
+brew install --cask rectangle
+brew install --cask alt-tab
+brew install --cask pingid
+brew install --cask beyond-compare
+brew install --cask fork
+brew install --cask duet
 
 # excellent code editors
-brew install --cask visual-studio-code atom
+brew install --cask visual-studio-code
+brew install --cask atom
 brew install --cask intellij-idea
 
 # Teh Best Font
@@ -24,9 +30,7 @@ brew install --cask obs
 
 # Collaboration
 brew install --cask microsoft-teams
-
-# Incredible productivity tool
-#brew install --cask spotify
+brew install --cask microsoft-office
 
 #Enable showing of hidden folders
 defaults write com.apple.finder AppleShowAllFiles YES
