@@ -17,7 +17,7 @@ brew install --cask beyond-compare
 brew install --cask fork
 brew install --cask duet
 brew install gradle
-
+brew install p7zip
 # excellent code editors
 brew install --cask visual-studio-code
 brew install --cask atom
