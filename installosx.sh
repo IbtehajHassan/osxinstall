@@ -5,6 +5,7 @@
 
 # Essentials
 brew install --cask docker
+brew install docker-compose
 brew install --cask robo-3t
 brew install --cask dbeaver-community
 brew install --cask postman
