@@ -19,6 +19,7 @@ brew install --cask duet
 brew install gradle
 brew install p7zip
 brew install --cask firefox
+brew install cloudfoundry/tap/cf-cli
 
 # code editors
 brew install --cask visual-studio-code
@@ -33,7 +34,7 @@ brew install --cask obs
 
 # Collaboration
 brew install --cask microsoft-teams
-brew install --cask microsoft-office
+brew install --cask slack
 
 #Enable showing of hidden folders
 defaults write com.apple.finder AppleShowAllFiles YES
