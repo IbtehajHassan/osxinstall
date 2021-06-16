@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Already installed Get Homebrew
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Get Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Essentials
 brew install --cask docker
@@ -18,15 +18,17 @@ brew install --cask fork
 brew install --cask duet
 brew install gradle
 brew install p7zip
-# excellent code editors
+brew install --cask firefox
+
+# code editors
 brew install --cask visual-studio-code
 brew install --cask atom
 brew install --cask intellij-idea
 
-# Teh Best Font
+# For Font
 brew install --cask homebrew/cask-fonts/font-hack
 
-# Excellent screen recording tool
+# Screen recording tool
 brew install --cask obs
 
 # Collaboration
@@ -53,4 +55,3 @@ brew install starship
 #(https://github.com/Peltoche/lsd) a modern replacement for `ls`. It colorizes file permissions and displays different symbols and colors for different file types. 
 brew install lsd
 alias ls='lsd'
-alias l='ls -latr'
