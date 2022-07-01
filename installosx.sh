@@ -4,7 +4,6 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Essentials
-brew install --cask docker
 brew install docker-compose
 brew install --cask robo-3t
 brew install --cask dbeaver-community
@@ -13,7 +12,7 @@ brew install --cask virtualbox
 brew install --cask rectangle
 brew install --cask alt-tab
 brew install --cask pingid
-brew install --cask beyond-compare
+brew install --cask meld
 brew install --cask fork
 brew install --cask duet
 brew install gradle
@@ -33,16 +32,11 @@ brew install --cask homebrew/cask-fonts/font-hack
 brew install --cask obs
 
 # Collaboration
-brew install --cask microsoft-teams
-brew install --cask slack
 
 #Enable showing of hidden folders
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
-#install java stuff
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-#after java install check the version, using sdk list java command and intall appropirate version sdk install java 1.8.0_252
+
 
 #Install Terminal oh-my-zsh
 brew install --cask iterm2
@@ -56,3 +50,6 @@ brew install starship
 #(https://github.com/Peltoche/lsd) a modern replacement for `ls`. It colorizes file permissions and displays different symbols and colors for different file types. 
 brew install lsd
 alias ls='lsd'
+
+#install java stuff
+brew install openjdk@8
