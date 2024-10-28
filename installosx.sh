@@ -19,7 +19,7 @@ brew install --cask duet
 brew install gradle
 brew install p7zip
 brew install --cask firefox
-
+brew install kcat
 # code editors
 brew install --cask visual-studio-code
 brew install --cask atom
